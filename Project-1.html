@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-lists">
+            <li ><a class="active" href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a class="btn" href="#">Contant</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+        <img class="menu-btn" src="img/menu-btn.png">
+    </nav>
+    <header class="header-content">
+        <h2>Explore The Colorful world</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="btn">Learn More</a>
+    </header>
+    <section>
+        <div class="heading-part">
+            <h1>Upcoming Events</h1>
+        <center><div class="line"></div></center>
+    </div>
+        <div class="part-1">
+            <div class="part-I">
+             <img src="img/img1.png" alt="Image" class="Image" >
+             <h3>Everest camp trck</h3>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cupiditate, provident quisquam consequatur saepe non cum in quae, aliquam itaque at repellat, facilis ab soluta?</p>
+             <button class="btn">Learn more</button>
+            </div>
+        
+                <div class="part-I">
+                    <img src="img/img2.png" alt="Image" class="Image">
+                    <h3>Everest camp trck</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cupiditate, provident quisquam consequatur saepe non cum in quae, aliquam itaque at repellat, facilis ab soluta?</p>
+                    <button class="btn">Learn more</button>  
+            </div>
+    </div>
+    </section>
+    <section class="Part-2">
+        <div class="part-II">
+         <h1>EXPLORE THE WORLD</h1>
+         <div class="line"></div>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptatibus nemo odio quo nam totam ipsum fugiat eveniet eligendi doloribus obcaecati quia dignissimos maiores perspiciatis?</p>
+         <button class="btn btn-I">Learn More</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-1">
+         <h1>UPCOMING TOURS & DESTINATION</h1>
+         <div class="line"></div>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nemo tenetur dignissimos aliquam error neque quibusdam culpa sint tempore officiis. Tenetur at doloribus minima consequatur.</p>
+         <button class="btn">Learn More</button>
+        </div>
+        <div class="footer-2">
+        <div class="footer-content">
+         <img src="img/img3.png" class="footer-image">
+         <img src="img/img4.png" class="footer-image">
+        </div>
+        <div class="footer-content">
+            <img src="img/img5.png" class="footer-image">
+            <img src="img/img6.png" class="footer-image">  
+        </div>
+        </div>
+    </footer>
+    <script>
+        const menu_btn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-lists");
+        menu_btn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
